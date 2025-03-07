@@ -24,7 +24,6 @@ while(i<n){
 }
 return LPS;
 }
-
 vector<int> findKMP(const vector<int> &A, const vector<int> &B){
     int n = A.size();
     int m = B.size();
